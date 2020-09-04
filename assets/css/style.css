@@ -3,27 +3,27 @@
     padding: 0;
     margin: 0;
 }
-
+/* background color for the entire page */
 body {
     background-color: #d9dcd6;
 }
-
+/* this is the styling for the header, if you wish to change font, edit line 13, if you wish to change bg color edit 14 and for text color line 15 */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Line 18-21 are for the font size of the Horiseon logo and position */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* if you wish to change the "seo" in horiseon, change the color on line 24 */
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* this is the positioning of the header. if you wish to change text pos, edit line 30, to change font or font size 31 and 32 */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,12 +35,12 @@ header nav {
 nav ul {
     list-style-type: none;
 }
-
+/* if you wish to change the position of the navigation bar, change the margin on line 41 */
 nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* lines 44-47 are the colors for the links on the nav bar */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -49,7 +49,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* .hero is the background and positioning for the left section */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +58,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* floating images left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* floating images right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* content width on the page for the left side sections as well as a margin from the sides of the page */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* styling for the right aside */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,7 +102,7 @@ div img {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* positioning for the section on the left */
 section {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,23 +111,23 @@ section {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* allowed max height for the section imgs */
 section img {
     max-height: 200px;
 }
-
+/* positioning and font size for the headers on the left side sections */
 section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* if you wish to make changes on font or text alignment for the footer, edit lines 127 and 128 */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* foot heading size, if you wish to make it larger or smaller, edit line 132 after font-size: '+ or -'px; */
 footer h2 {
     font-size: 20px;
 }
