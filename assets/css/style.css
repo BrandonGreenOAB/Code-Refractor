@@ -86,19 +86,13 @@ p {
     background-color: #2589bd;
 }
 
-/* removed some repetitive code into one block */
 
-.benefit-lead, .benefit-brand, .benefit-cost {
+div {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
+div h3 {
     margin-bottom: 10px;
     text-align: center;
 }
